@@ -38,7 +38,14 @@ public class Student_Data_input_output {
          Student_Data_input_output studentObjectTwo = new Student_Data_input_output();
          System.out.println("studentCollegeName  :" + studentCollegeName);
          System.out.println("studentObject.studentCollegeName"+studentObject.studentCollegeName);
-         System.out.println("studentObjectTwo"+studentObjectTwo.studentCollegeName);
+         System.out.println("studentObjectTwo" + studentObjectTwo.studentCollegeName);
+         Student_Data_input_output[] arrayOfStudentObject = new Student_Data_input_output[10];
+         for (int i = 0; i < 3; i++) {
+             arrayOfStudentObject[i].getStudentData();
+             arrayOfStudentObject[i].showStudentData();
+            
+            
+         }
        
         
         
